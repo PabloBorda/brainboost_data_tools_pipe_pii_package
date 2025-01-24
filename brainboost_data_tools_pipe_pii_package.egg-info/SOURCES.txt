@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+brainboost_data_tools_pipe_pii_package/BBFilterPersonalData.py
+brainboost_data_tools_pipe_pii_package/__init__.py
+brainboost_data_tools_pipe_pii_package.egg-info/PKG-INFO
+brainboost_data_tools_pipe_pii_package.egg-info/SOURCES.txt
+brainboost_data_tools_pipe_pii_package.egg-info/dependency_links.txt
+brainboost_data_tools_pipe_pii_package.egg-info/requires.txt
+brainboost_data_tools_pipe_pii_package.egg-info/top_level.txt
+tests/__init__.py
+tests/test_filter_personal_data.py

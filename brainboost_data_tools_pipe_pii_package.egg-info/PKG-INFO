@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: brainboost-data-tools-pipe-pii-package
+Version: 0.1.0
+Summary: A package for filtering and anonymizing personal data using Presidio.
+Home-page: https://github.com/yourusername/brainboost_data_tools_pipe_pii_package
+Author: Pablo Tomas Borda
+Author-email: pablotomasborda@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BrainBoost Data Tools Pipe PII Package
+
+A Python package for filtering and anonymizing personal identifiable information (PII) using Microsoft Presidio.
+
+## Features
+
+- Detects and anonymizes PII entities such as PERSON, EMAIL_ADDRESS, PHONE_NUMBER, API_KEY, and ID_NUMBER.
+- Custom recognizers for API keys and ID numbers.
+- Easy-to-use interface.
+
+## Installation
+
+You can install the package via `pip`:
+
+```bash
+pip install brainboost_data_tools_pipe_pii_package
+
+USAGE
+
+
+from brainboost_data_tools_pipe_pii_package import 
+
+text = "Contact John Doe at john.doe@example.com or call 123-456-7890. API Key: ABCDEFGHIJKLMNOPQRSTUVWXYZ123456"
+
+filter_pii = ()
+anonymized_text = filter_pii.filter(text)
+
+print(anonymized_text)
+# Output: Contact [FILTERED] at [FILTERED] or call [FILTERED]. API Key: [FILTERED]
+
+
